@@ -10,7 +10,7 @@ function Home(props) {
         </h1>
         <br />
         <h1>
-          <Link to="/signup">SignUP</Link>
+          <Link to="/signup">Signup</Link>
         </h1>
       </div>
 
