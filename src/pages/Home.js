@@ -26,7 +26,7 @@ const Home = () => {
         <div className="container">
           <div className="home_content">
             {ld ? (
-              <img src="../image/ld3.gif" style={{ marginLeft: "550px" }}></img>
+              <img src="../image/ld3.gif" id='loaderCss'></img>
             ) : (
               data.map((item) => (
                 <Productscard key={item.id} {...item}></Productscard>

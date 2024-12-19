@@ -209,7 +209,9 @@ svg {
 #footer {
     text-align: center;
     padding: 1.4rem 0;
-    
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
 
     p {
         letter-spacing: 1px;
@@ -400,3 +402,14 @@ svg {
 
 }
 
+#loaderCss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px; /* Adjust the height if necessary */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
