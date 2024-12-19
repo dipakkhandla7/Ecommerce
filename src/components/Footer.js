@@ -4,7 +4,7 @@ const Footer = () => {
       <footer id="footer">
         <div className="container">
           E Shoping
-          <p>Buite by | &nbsp; Dipak khandla </p>
+          <p>Developed By | &nbsp; Dipak khandla </p>
         </div>
       </footer>
     </>
